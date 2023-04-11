@@ -7,7 +7,6 @@ public class test {
 		e.setUserName("tawhide");
 		e.setReg(12345678);
 		e.setBalance(5000);
-
 		e.getBalance();
 		//System.out.println(e.getBalance());
 
