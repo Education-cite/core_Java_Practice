@@ -17,7 +17,9 @@ public class StaticUse {
 	}
 	
 	
-	
+	static void setCompanyname(String companyName ) {
+	StaticUse.companyName=companyName;
+	}
 	
 	
 	
