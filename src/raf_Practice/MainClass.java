@@ -1,15 +1,25 @@
 package raf_Practice;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class MainClass {
 	public static void main(String[] args) {
 		
-		
-		//Random rand = new Random();
-		int i =(int) (Math.random()*10)+1;
+		int num1=60;
+		int num2=24;
+		int r ;
 
-		System.out.println(" 1 to 10 random number is : "+i);
+		
+		while(num2!=0) {
+			
+			 r =num1%num2;
+			num1=num2;
+			num2=r;
+			
+		}
+		
+		System.out.println(num1);
 		
 	}
 
